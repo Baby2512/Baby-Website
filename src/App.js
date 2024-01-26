@@ -7,6 +7,7 @@ import Service from "./Pages/Service"
 import Counter from "./Counter.js"
 import Effect from "./Effect.js"
 import Reducer from "./Reducer.js"
+import Callback from "./Callbacks.js"
 export default function App(){
   return(
     // <BrowserRouter>
@@ -23,6 +24,7 @@ export default function App(){
       <Counter/>
       <Effect/>
       <Reducer/>
+      <Callback/>
     </div>
   )
 }
